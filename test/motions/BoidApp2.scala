@@ -21,9 +21,9 @@ class BoidApp2 extends BoidApp {
 //Boid2個体クラス
 class Boid2(app: BoidApp2) extends Boid(app) {
 	override def moveDecide() { //移動量決定処理
-		//cohesion //結合（群の中心に向かう）
+		cohesion //結合（群の中心に向かう）
 		separation //分離（ぶつからないように距離を取る）
-		//alignment //整列（群と同じ方向と速度に合わせる）
+		alignment //整列（群と同じ方向と速度に合わせる）
 		val rate = math.sqrt(dx*dx + dy*dy) / app.speedLimit
 		if (rate > 1.0) { //速度制限
 			dx /= rate
@@ -44,12 +44,8 @@ class Boid2(app: BoidApp2) extends Boid(app) {
 			val ay = o.y - y
 			val dis = math.sqrt(ax*ax + ay*ay)
 			if (dis < app.separationDis) { //一定距離以内に接近している個体があれば、
-				dx -= ax//*0.02
-				dy -= ay//*0.02
-				/*
-				dx -= ax //離す
+				dx -= ax
 				dy -= ay
-				*/
 			}
 		}
 	}
