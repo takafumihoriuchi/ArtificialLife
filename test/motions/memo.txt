@@ -1,0 +1,26 @@
+
+> scalac BoidApp.scala
+
+でコンパイルはできるよう。
+コンパイルすると、classファイルが複数生成される。
+また、
+
+> scala BoidApp.scala
+
+で、classファイルを生成することなく直接実行できる。なぜ？
+
+> scalac BoidApp.scala
+
+でコンパイルした後、
+
+> scala BoidApp
+
+で実行しようとすると、失敗する。
+ここで、
+
+> scala BoidAppMain
+
+とすると実行に成功する。
+これは、プログラム中で、
+object BoidAppMain {...}
+をアプリケーションの起動クラスとして適宜しているから、であると考えられる。
