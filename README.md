@@ -4,5 +4,5 @@
 - aiming to become a real programmer through these projects
 
 ## to run
-install Scala inorder to run
+install Scala
 - Kurosuke: in the "kurosuke" directory, type either "scala KurosukeMain" or "scala Kurosuke.scala"
