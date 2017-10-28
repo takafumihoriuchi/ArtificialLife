@@ -79,7 +79,7 @@ class Boid(app: BoidApp) {
 
 	def moveDecide() {
 		dx = (math.random * 2.0 - 1.0).round.toInt //ランダム移動方向
-		dy = (math.random * 2.0 - 1.0).round.toInt
+		dy = (math.random * 2.0 - 1.0).round.toInt // -1,0,1 のいずれかの値をとる
 	}
 
 	def move() {
