@@ -3,7 +3,7 @@ import javafx.scene.input._
 import javafx.scene.paint.Color
 
 //プレイヤークラス
-class Player(app: GameApp) extends GameElems(app) {
+class Player(app: GameApp) extends GameElem(app) {
 	val s = new Rectangle(app.uw, app.uh)
 	s.setArcWidth(15)
 	s.setArcHeight(15)

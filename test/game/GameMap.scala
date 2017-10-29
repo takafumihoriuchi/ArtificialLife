@@ -16,7 +16,7 @@ object GameMap {
 		#@___#____o#
 		############
 		"""
-	def mapMake() = {
+	def makeMap() = {
 		val a = mapData.split("\\n").map(_.trim).filter(_ > "").map(_.split("").map(mark.indexOf(_)))
 		r = a.length
 		c = a(0).length
