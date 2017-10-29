@@ -1,3 +1,5 @@
+package ex06
+
 object GameMap {
 	var r, c = 0 //行列サイズ
 	val mark = "_#o@" //マーク（道、壁、プレイヤー、NPC）

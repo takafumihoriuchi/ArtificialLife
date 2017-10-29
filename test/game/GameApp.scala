@@ -1,3 +1,5 @@
+package ex06
+
 import scala.collection.mutable.ArrayBuffer
 import javafx.application.Application
 import javafx.scene._
