@@ -1,4 +1,4 @@
-package ex06
+//package ex06
 
 import scala.collection.mutable.ArrayBuffer
 import javafx.application.Application

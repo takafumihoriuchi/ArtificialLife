@@ -1,4 +1,4 @@
-package ex06
+//package ex06
 
 object GameMap {
 	var r, c = 0 //行列サイズ

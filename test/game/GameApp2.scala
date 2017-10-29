@@ -1,6 +1,6 @@
-package ex07
+//package ex07
 
-import ex06._
+//import ex06._
 import javafx.application.Application
 
 //アプリケーション起動オブジェクト

@@ -1,4 +1,4 @@
-package ex06
+//package ex06
 
 import javafx.scene.shape._
 import javafx.scene.input._
